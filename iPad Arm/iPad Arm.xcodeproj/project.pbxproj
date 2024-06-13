@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC770202C1A9E7C00FFB690 /* iPad_ArmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7701F2C1A9E7C00FFB690 /* iPad_ArmApp.swift */; };
+		CCC770222C1A9E7C00FFB690 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC770212C1A9E7C00FFB690 /* ContentView.swift */; };
+		CCC770242C1A9E7D00FFB690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC770232C1A9E7D00FFB690 /* Assets.xcassets */; };
+		CCC770272C1A9E7D00FFB690 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC770262C1A9E7D00FFB690 /* Preview Assets.xcassets */; };
+		CCC770312C1A9E7D00FFB690 /* iPad_ArmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC770302C1A9E7D00FFB690 /* iPad_ArmTests.swift */; };
+		CCC7703B2C1A9E7D00FFB690 /* iPad_ArmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7703A2C1A9E7D00FFB690 /* iPad_ArmUITests.swift */; };
+		CCC7703D2C1A9E7D00FFB690 /* iPad_ArmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7703C2C1A9E7D00FFB690 /* iPad_ArmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC7702D2C1A9E7D00FFB690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC770142C1A9E7C00FFB690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC7701B2C1A9E7C00FFB690;
+			remoteInfo = "iPad Arm";
+		};
+		CCC770372C1A9E7D00FFB690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC770142C1A9E7C00FFB690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC7701B2C1A9E7C00FFB690;
+			remoteInfo = "iPad Arm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC7701C2C1A9E7C00FFB690 /* iPad Arm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad Arm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC7701F2C1A9E7C00FFB690 /* iPad_ArmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad_ArmApp.swift; sourceTree = "<group>"; };
+		CCC770212C1A9E7C00FFB690 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCC770232C1A9E7D00FFB690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC770262C1A9E7D00FFB690 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCC7702C2C1A9E7D00FFB690 /* iPad ArmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPad ArmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC770302C1A9E7D00FFB690 /* iPad_ArmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad_ArmTests.swift; sourceTree = "<group>"; };
+		CCC770362C1A9E7D00FFB690 /* iPad ArmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPad ArmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC7703A2C1A9E7D00FFB690 /* iPad_ArmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad_ArmUITests.swift; sourceTree = "<group>"; };
+		CCC7703C2C1A9E7D00FFB690 /* iPad_ArmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad_ArmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC770192C1A9E7C00FFB690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC770292C1A9E7D00FFB690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC770332C1A9E7D00FFB690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC770132C1A9E7C00FFB690 = {
+			isa = PBXGroup;
+			children = (
+				CCC7701E2C1A9E7C00FFB690 /* iPad Arm */,
+				CCC7702F2C1A9E7D00FFB690 /* iPad ArmTests */,
+				CCC770392C1A9E7D00FFB690 /* iPad ArmUITests */,
+				CCC7701D2C1A9E7C00FFB690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC7701D2C1A9E7C00FFB690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7701C2C1A9E7C00FFB690 /* iPad Arm.app */,
+				CCC7702C2C1A9E7D00FFB690 /* iPad ArmTests.xctest */,
+				CCC770362C1A9E7D00FFB690 /* iPad ArmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC7701E2C1A9E7C00FFB690 /* iPad Arm */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7701F2C1A9E7C00FFB690 /* iPad_ArmApp.swift */,
+				CCC770212C1A9E7C00FFB690 /* ContentView.swift */,
+				CCC770232C1A9E7D00FFB690 /* Assets.xcassets */,
+				CCC770252C1A9E7D00FFB690 /* Preview Content */,
+			);
+			path = "iPad Arm";
+			sourceTree = "<group>";
+		};
+		CCC770252C1A9E7D00FFB690 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCC770262C1A9E7D00FFB690 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCC7702F2C1A9E7D00FFB690 /* iPad ArmTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC770302C1A9E7D00FFB690 /* iPad_ArmTests.swift */,
+			);
+			path = "iPad ArmTests";
+			sourceTree = "<group>";
+		};
+		CCC770392C1A9E7D00FFB690 /* iPad ArmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7703A2C1A9E7D00FFB690 /* iPad_ArmUITests.swift */,
+				CCC7703C2C1A9E7D00FFB690 /* iPad_ArmUITestsLaunchTests.swift */,
+			);
+			path = "iPad ArmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC7701B2C1A9E7C00FFB690 /* iPad Arm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC770402C1A9E7D00FFB690 /* Build configuration list for PBXNativeTarget "iPad Arm" */;
+			buildPhases = (
+				CCC770182C1A9E7C00FFB690 /* Sources */,
+				CCC770192C1A9E7C00FFB690 /* Frameworks */,
+				CCC7701A2C1A9E7C00FFB690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPad Arm";
+			productName = "iPad Arm";
+			productReference = CCC7701C2C1A9E7C00FFB690 /* iPad Arm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC7702B2C1A9E7D00FFB690 /* iPad ArmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC770432C1A9E7D00FFB690 /* Build configuration list for PBXNativeTarget "iPad ArmTests" */;
+			buildPhases = (
+				CCC770282C1A9E7D00FFB690 /* Sources */,
+				CCC770292C1A9E7D00FFB690 /* Frameworks */,
+				CCC7702A2C1A9E7D00FFB690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC7702E2C1A9E7D00FFB690 /* PBXTargetDependency */,
+			);
+			name = "iPad ArmTests";
+			productName = "iPad ArmTests";
+			productReference = CCC7702C2C1A9E7D00FFB690 /* iPad ArmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC770352C1A9E7D00FFB690 /* iPad ArmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC770462C1A9E7D00FFB690 /* Build configuration list for PBXNativeTarget "iPad ArmUITests" */;
+			buildPhases = (
+				CCC770322C1A9E7D00FFB690 /* Sources */,
+				CCC770332C1A9E7D00FFB690 /* Frameworks */,
+				CCC770342C1A9E7D00FFB690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC770382C1A9E7D00FFB690 /* PBXTargetDependency */,
+			);
+			name = "iPad ArmUITests";
+			productName = "iPad ArmUITests";
+			productReference = CCC770362C1A9E7D00FFB690 /* iPad ArmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC770142C1A9E7C00FFB690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CCC7701B2C1A9E7C00FFB690 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CCC7702B2C1A9E7D00FFB690 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CCC7701B2C1A9E7C00FFB690;
+					};
+					CCC770352C1A9E7D00FFB690 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CCC7701B2C1A9E7C00FFB690;
+					};
+				};
+			};
+			buildConfigurationList = CCC770172C1A9E7C00FFB690 /* Build configuration list for PBXProject "iPad Arm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC770132C1A9E7C00FFB690;
+			productRefGroup = CCC7701D2C1A9E7C00FFB690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC7701B2C1A9E7C00FFB690 /* iPad Arm */,
+				CCC7702B2C1A9E7D00FFB690 /* iPad ArmTests */,
+				CCC770352C1A9E7D00FFB690 /* iPad ArmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC7701A2C1A9E7C00FFB690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC770272C1A9E7D00FFB690 /* Preview Assets.xcassets in Resources */,
+				CCC770242C1A9E7D00FFB690 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC7702A2C1A9E7D00FFB690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC770342C1A9E7D00FFB690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC770182C1A9E7C00FFB690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC770222C1A9E7C00FFB690 /* ContentView.swift in Sources */,
+				CCC770202C1A9E7C00FFB690 /* iPad_ArmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC770282C1A9E7D00FFB690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC770312C1A9E7D00FFB690 /* iPad_ArmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC770322C1A9E7D00FFB690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC7703D2C1A9E7D00FFB690 /* iPad_ArmUITestsLaunchTests.swift in Sources */,
+				CCC7703B2C1A9E7D00FFB690 /* iPad_ArmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC7702E2C1A9E7D00FFB690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC7701B2C1A9E7C00FFB690 /* iPad Arm */;
+			targetProxy = CCC7702D2C1A9E7D00FFB690 /* PBXContainerItemProxy */;
+		};
+		CCC770382C1A9E7D00FFB690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC7701B2C1A9E7C00FFB690 /* iPad Arm */;
+			targetProxy = CCC770372C1A9E7D00FFB690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCC7703E2C1A9E7D00FFB690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCC7703F2C1A9E7D00FFB690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC770412C1A9E7D00FFB690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPad Arm/Preview Content\"";
+				DEVELOPMENT_TEAM = TG67899CP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Foster.iPad-Arm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCC770422C1A9E7D00FFB690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iPad Arm/Preview Content\"";
+				DEVELOPMENT_TEAM = TG67899CP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Foster.iPad-Arm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCC770442C1A9E7D00FFB690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TG67899CP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Foster.iPad-ArmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPad Arm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPad Arm";
+			};
+			name = Debug;
+		};
+		CCC770452C1A9E7D00FFB690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TG67899CP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Foster.iPad-ArmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPad Arm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iPad Arm";
+			};
+			name = Release;
+		};
+		CCC770472C1A9E7D00FFB690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TG67899CP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Foster.iPad-ArmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iPad Arm";
+			};
+			name = Debug;
+		};
+		CCC770482C1A9E7D00FFB690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TG67899CP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Logan-Foster.iPad-ArmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iPad Arm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC770172C1A9E7C00FFB690 /* Build configuration list for PBXProject "iPad Arm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC7703E2C1A9E7D00FFB690 /* Debug */,
+				CCC7703F2C1A9E7D00FFB690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC770402C1A9E7D00FFB690 /* Build configuration list for PBXNativeTarget "iPad Arm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC770412C1A9E7D00FFB690 /* Debug */,
+				CCC770422C1A9E7D00FFB690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC770432C1A9E7D00FFB690 /* Build configuration list for PBXNativeTarget "iPad ArmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC770442C1A9E7D00FFB690 /* Debug */,
+				CCC770452C1A9E7D00FFB690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC770462C1A9E7D00FFB690 /* Build configuration list for PBXNativeTarget "iPad ArmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC770472C1A9E7D00FFB690 /* Debug */,
+				CCC770482C1A9E7D00FFB690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC770142C1A9E7C00FFB690 /* Project object */;
+}
